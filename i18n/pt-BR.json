@@ -159,7 +159,30 @@
   "translateCta": "Quer no seu idioma?",
   "translateLink": "Ajude a traduzir",
   "translationBy": "Tradução: {who}",
-  "originalName": "Nome original"
+  "originalName": "Nome original",
+  "tabExtras": "Extras",
+  "xGear": "Equip. de bruxo",
+  "xTrophies": "Troféus",
+  "xChallenges": "Desafios",
+  "searchExtras": "Buscar equipamento, troféu ou desafio",
+  "secM": "Onde conseguir os mapas",
+  "secBase": "Conjunto básico",
+  "secPart": "Parte {n}",
+  "secGm": "Grão-mestre",
+  "xGearIntro": "Onde fica cada diagrama. Toque no ícone de mapa para ver o local. Cada parte mostra a missão dela na rota: marque lá, que aparece aqui.",
+  "xGoQuest": "Mostrar esta missão na rota",
+  "xMap": "Mapa",
+  "xMapOf": "Mapa de {name}",
+  "xOpen": "Abrir link",
+  "xImgFail": "A imagem não carregou aqui. Abra pelo link abaixo.",
+  "xOpenOriginal": "Abrir a imagem original",
+  "xTroIntro": "Para consulta. Os perdíveis estão marcados, e os spoilers ficam escondidos até você tocar.",
+  "xTroGuide": "Guia completo de troféus (PSNProfiles, em inglês)",
+  "xGrp_base": "Jogo-base",
+  "xGrp_hos": "Hearts of Stone",
+  "xGrp_baw": "Blood and Wine",
+  "xSpoiler": "Spoiler · toque para ver",
+  "xChIntro": "Regras opcionais para uma partida mais difícil. Lista de {who}, do guia do ChrisRi."
  },
  "content": {
   "chapters": {
@@ -1811,6 +1834,288 @@
     "Blood and Wine: Tourney Grounds' armorer": "Blood and Wine: armeiro do Campo do Torneio",
     "Blood and Wine: Tourney Grounds' barber": "Blood and Wine: barbeiro do Campo do Torneio",
     "Blood and Wine: Won Beauclair Port's butcher": "Blood and Wine: vencida do açougueiro do Porto de Beauclair"
+   }
+  },
+  "extras": {
+   "schools": {
+    "bear": "Urso (Ursina)",
+    "cat": "Gato (Felina)",
+    "griffin": "Grifo",
+    "viper": "Víbora",
+    "wolf": "Lobo",
+    "manticore": "Manticora",
+    "fwolf": "Lobo Esquecido"
+   },
+   "gear": {
+    "Armor": "Armadura",
+    "Boots": "Botas",
+    "Gauntlets": "Manoplas",
+    "Trousers": "Calças",
+    "Steel Sword": "Espada de aço",
+    "Silver Sword": "Espada de prata",
+    "Crossbow": "Besta",
+    "Enhanced Armor": "Armadura aprimorada",
+    "Enhanced Boots": "Botas aprimoradas",
+    "Enhanced Gauntlets": "Manoplas aprimoradas",
+    "Enhanced Trousers": "Calças aprimoradas",
+    "Enhanced Steel Sword": "Espada de aço aprimorada",
+    "Enhanced Silver Sword": "Espada de prata aprimorada",
+    "Superior Armor": "Armadura superior",
+    "Superior Boots": "Botas superiores",
+    "Superior Gauntlets": "Manoplas superiores",
+    "Superior Trousers": "Calças superiores",
+    "Superior Steel Sword": "Espada de aço superior",
+    "Superior Silver Sword": "Espada de prata superior",
+    "Mastercrafted Armor": "Armadura magistral",
+    "Mastercrafted Boots": "Botas magistrais",
+    "Mastercrafted Gauntlets": "Manoplas magistrais",
+    "Mastercrafted Trousers": "Calças magistrais",
+    "Mastercrafted Steel Sword": "Espada de aço magistral",
+    "Mastercrafted Silver Sword": "Espada de prata magistral",
+    "Buy Ibrahim Savi's maps (1,2,3,4) from the armorer of Kaer Trolde in Skellige": "Compre os mapas de Ibrahim Savi (1, 2, 3, 4) com o armeiro de Kaer Trolde, em Skellige",
+    "Buy Adalbert Kermith's map (1) from the merchant of Blackbough": "Compre o mapa de Adalbert Kermith (1) com o mercador de Blackbough",
+    "Buy Adalbert Kermith's map (2) from the blacksmith of Blackbough": "Compre o mapa de Adalbert Kermith (2) com o ferreiro de Blackbough",
+    "Buy Adalbert Kermith's maps (3) from the quartermaster of Crow's Perch": "Compre o mapa de Adalbert Kermith (3) com o intendente de Poleiro do Corvo",
+    "Buy Adalbert Kermith's maps (4) from the blacksmith of Lindenvale": "Compre o mapa de Adalbert Kermith (4) com o ferreiro de Lindenvale",
+    "Buy Edwin Greloff's maps (1,2) from the armorer of Midcopse": "Compre os mapas de Edwin Greloff (1, 2) com o armeiro de Midcopse",
+    "Buy Edwin Greloff's maps (3) from the armorer of Hierarch Square": "Compre o mapa de Edwin Greloff (3) com o armeiro da Praça do Hierarca",
+    "Buy Edwin Greloff's maps (4) from the elven blacksmith near Glory Gate signpost in Novigrad": "Compre o mapa de Edwin Greloff (4) com o ferreiro elfo perto do poste do Portão da Glória, em Novigrad",
+    "Buy slightly torn notes (1) by Hieronymus from the blacksmith of Lindenvale": "Compre as notas levemente rasgadas de Hieronymus (1) com o ferreiro de Lindenvale",
+    "Buy well-preserved notes (2) by Hieronymus from the elven blacksmith near Glory Gate signpost in Novigrad": "Compre as notas bem preservadas de Hieronymus (2) com o ferreiro elfo perto do poste do Portão da Glória, em Novigrad",
+    "Buy heavily faded notes (3,5) by Hieronymus from the armorer of Hierarch Square": "Compre as notas muito desbotadas de Hieronymus (3, 5) com o armeiro da Praça do Hierarca",
+    "Buy damp, moldy notes (4) by Hieronymus from the armorer of Kaer Trolde": "Compre as notas úmidas e mofadas de Hieronymus (4) com o armeiro de Kaer Trolde",
+    "Buy worn-out and faded notes (6) by Hieronymus from the elven blacksmith near Glory Gate signpost in Novigrad": "Compre as notas gastas e desbotadas de Hieronymus (6) com o ferreiro elfo perto do poste do Portão da Glória, em Novigrad",
+    "Buy notes on parchment (7) by Hieronymus from the armorer of Kaer Trolde": "Compre as notas em pergaminho de Hieronymus (7) com o armeiro de Kaer Trolde",
+    "Complete 'In the Eternal Fire's Shadow' to receive the base set diagrams and the locatioin of the other two sets": "Conclua 'À Sombra do Fogo Eterno' para receber os diagramas do conjunto básico e a localização dos outros dois conjuntos",
+    "Diagrams for the armor, boots, gauntlets, and trousers purchased from Countess Mignole during 'Open Sesame'": "Os diagramas da armadura, botas, manoplas e calças são comprados da Condessa Mignole durante 'Abre-te, Sésamo!'",
+    "Given by Lafargue during Master Master Master Master": "Entregues por Lafargue durante 'Mestre Mestre Mestre Mestre!'",
+    "Silver Sword in the basement of the chapel of White Orchard Cemetary": "Espada de prata: no porão da capela do cemitério de Pomar Branco",
+    "Steel Sword is found in a chest of the Amavet Fortress Ruins just west of the ransacked village fast travel point in White Orchard": "Espada de aço: num baú nas ruínas da Fortaleza de Amavet, logo a oeste do ponto de viagem rápida da aldeia saqueada, em Pomar Branco",
+    "Viper Venomous Silver Sword can only be found during Whatsoever a Man Soweth and you will find it stuck in a stone in Gaunter's world. You do not find a diagram, but the actual sword in this situation.": "Espada de prata Víbora Venenosa: só aparece durante 'Aquilo que o Homem Semear', cravada numa pedra no mundo de Gaunter. Aqui você não acha o diagrama, e sim a própria espada.",
+    "Viper Venomous Steel Sword is found during Open Sesame and it will be in one of the chests inside the vault": "Espada de aço Víbora Venenosa: aparece durante 'Abre-te, Sésamo!', num dos baús dentro do cofre"
+   },
+   "trophies": {
+    "t3": "Encontre e liberte Jaskier.",
+    "t4": "Jogue três cartas de herói numa mesma rodada de gwent e vença a partida.",
+    "t5": "Encontre e equipe todas as peças de um conjunto de equipamento de bruxo.",
+    "t6": "Conclua o contrato de Therazane.",
+    "t7": "Participe do assassinato do rei Radovid.",
+    "t8": "Reúna as fórmulas de 6 tipos diferentes de bomba.",
+    "t9": "Leia 30 livros, diários ou outros documentos.",
+    "t10": "Conclua todas as missões de luta de punhos em Velen, Skellige e Novigrad.",
+    "t11": "Derrote Olaf, o campeão de luta desarmada de Skellige.",
+    "t12": "Mate pelo menos 5 oponentes em menos de 10 segundos.",
+    "t13": "Mate 5 inimigos numa luta sem sofrer dano (exceto por toxicidade) e sem usar o Sinal Quen.",
+    "t14": "Obtenha todas as cartas de gwent disponíveis no jogo-base.",
+    "t15": "Obtenha todas as habilidades de uma árvore.",
+    "t16": "Mate 50 oponentes usando o ambiente (gás do pântano, insetos, objetos etc.).",
+    "t17": "Mate 2 monstros de contrato sem usar Sinais, poções, mutagênicos, óleos ou bombas.",
+    "t18": "Encontre a esposa e a filha do barão.",
+    "t19": "Vença todas as corridas de cavalo do jogo.",
+    "t20": "Conclua o contrato de Sarasti.",
+    "t21": "Conclua o contrato de Morvudd.",
+    "t22": "Destrua 10 ninhos de monstros usando bombas.",
+    "t23": "Derrote um oponente numa luta de punhos sem sofrer dano.",
+    "t24": "Conclua a história paralela de Keira Metz.",
+    "t25": "Leve todos os aliados possíveis a Kaer Morhen para a batalha contra a Caçada.",
+    "t26": "Vença uma rodada de gwent usando só cartas neutras.",
+    "t27": "Conclua todos os contratos de bruxo.",
+    "t28": "Descubra 100 pontos de viagem rápida.",
+    "t29": "Derrote Tybalt e vença o torneio de gwent do Passiflora.",
+    "t30": "Mate 10 oponentes derrubando-os de lugares altos com o Sinal Aard.",
+    "t31": "Faça 10 contra-ataques eficazes seguidos sem ser atingido nem aparar.",
+    "t32": "Conclua a história sobre a escolha do governante de Skellige.",
+    "t33": "Aprenda 12 fórmulas de poção.",
+    "t34": "Encontre Yennefer de Vengerberg.",
+    "t35": "Mate 50 oponentes humanos e não humanos com um virote de besta na cabeça.",
+    "t36": "Chegue ao nível de desenvolvimento 35.",
+    "t37": "Preencha todos os espaços de mutagênicos.",
+    "t38": "Ajude Yennefer a extrair informações do corpo de Skjall.",
+    "t39": "Faça um oponente sangrar, ser envenenado e queimar ao mesmo tempo. Repita 10 vezes.",
+    "t40": "Termine o jogo em qualquer dificuldade.",
+    "t41": "Destrua todos os ninhos de monstros da região de Velen/Novigrad ou de Skellige.",
+    "t42": "Tenha ativos ao mesmo tempo todos os bônus de Lugar de Poder possíveis.",
+    "t43": "Termine o jogo na dificuldade \"Sangue e Ossos Quebrados!\" ou \"Marcha da Morte!\".",
+    "t44": "Conclua o contrato do gritador.",
+    "t45": "Encontre Ciri.",
+    "t46": "Acenda o gás de uma bomba Sonho de Dragão usando um oponente em chamas. Repita 10 vezes.",
+    "t47": "Resolva o problema do doppler em Novigrad.",
+    "t48": "Use o Sinal Axii para obrigar um oponente a matar outro. Repita 20 vezes.",
+    "t49": "Derrote Eredin.",
+    "t50": "Conquiste todos os troféus. Obs.: exclusivo do PlayStation.",
+    "t51": "Mate 3 oponentes numa luta usando 3 métodos diferentes (espada, bombas, besta, Sinais etc.).",
+    "t52": "Termine o jogo na dificuldade \"Marcha da Morte!\".",
+    "t53": "Ataque, contra-ataque, lance um Sinal e jogue uma bomba (em qualquer ordem) em menos de 4 segundos.",
+    "t54": "Conclua o contrato do Espírito da Floresta.",
+    "t55": "Visite Tir ná Lia e convença Ge'els a trair Eredin.",
+    "t58": "Fique sob efeito de sete poções ou decocções ao mesmo tempo.",
+    "t59": "Recrie todos os pesadelos de Iris no Mundo Pintado.",
+    "t60": "Reúna todas as armaduras e equipamentos de cavalo ofirianos disponíveis e pelo menos uma espada ofiriana.",
+    "t61": "Mate o príncipe amaldiçoado em sapo.",
+    "t62": "Vença uma rodada de gwent com força total de pelo menos 187.",
+    "t63": "Participe de todas as atividades do casamento.",
+    "t64": "Mate 20 vacas.",
+    "t65": "Termine a expansão Hearts of Stone.",
+    "t66": "Escorregue ladeira abaixo sem parar por pelo menos 10 segundos.",
+    "t67": "Mate 3 oponentes com as próprias flechas deles.",
+    "t68": "Compre todos os itens leiloados na Casa de Leilões dos Borsodi.",
+    "t69": "Provoque todos os Pesadelos de Iris von Everec para lutarem com você ao mesmo tempo e derrote-os.",
+    "t70": "Destrua todos os acampamentos dos cavaleiros caídos da Ordem da Rosa Flamejante.",
+    "t73": "Vença sem falhas todas as provas do torneio de cavaleiros.",
+    "t74": "Mate Golyat com um virote de besta no olho.",
+    "t75": "Desbloqueie o bônus por equipar todas as peças de equipamento de bruxo de uma mesma escola.",
+    "t76": "Receba Aerondight da Dama do Lago.",
+    "t77": "Mate um oponente congelado com um virote de besta.",
+    "t78": "Reúna todas as cartas do baralho de Skellige.",
+    "t79": "Cumpra pena na prisão em Toussaint.",
+    "t80": "Seja condecorado com a Ordem de Vitis Vinifera.",
+    "t81": "Use todas as opções disponíveis para reformar Corvo Bianco.",
+    "t82": "Ajude a unir os vinhedos rivais e tenha um vinho batizado em sua homenagem.",
+    "t83": "Viaje ao Ducado de Toussaint.",
+    "t84": "Encontre todos os diagramas grão-mestre de cada escola de bruxo.",
+    "t85": "Desenvolva uma mutação."
+   },
+   "challenges": {
+    "c2": [
+     "Marcha da Morte",
+     "Jogue na dificuldade Marcha da Morte."
+    ],
+    "c3": [
+     "Escalonamento",
+     "Escalonamento de nível dos inimigos ligado."
+    ],
+    "c4": [
+     "Sem Quen",
+     "Você não pode usar Quen em momento nenhum da partida."
+    ],
+    "c5": [
+     "Mero Mortal",
+     "Nenhum Sinal em combate. Fora dele pode (missões, acender fogueiras, limpar caminho etc.), mas nunca para lutar."
+    ],
+    "c6": [
+     "Instrumento da Morte",
+     "Só habilidades de combate. Nenhum ponto em Sinais, alquimia ou habilidades gerais."
+    ],
+    "c7": [
+     "O Caminho Jedi",
+     "Só habilidades de Sinais. Nenhum ponto em combate, alquimia ou habilidades gerais."
+    ],
+    "c8": [
+     "Chumbo em Ouro",
+     "Só habilidades de alquimia. Nenhum ponto em combate, Sinais ou habilidades gerais."
+    ],
+    "c9": [
+     "Feijão com Arroz",
+     "Só habilidades gerais. Nenhum ponto em combate, Sinais ou alquimia."
+    ],
+    "c10": [
+     "Durão",
+     "Nenhum ponto de habilidade pode ser usado."
+    ],
+    "c11": [
+     "Boteco Engordurado",
+     "Você não pode usar a habilidade Gourmet."
+    ],
+    "c12": [
+     "Paladar Refinado",
+     "Só decocções. Nenhuma poção."
+    ],
+    "c13": [
+     "Abstêmio",
+     "Nenhuma poção nem decocção."
+    ],
+    "c14": [
+     "A Seco",
+     "Nenhum óleo."
+    ],
+    "c15": [
+     "Puro-Sangue",
+     "Nenhum mutagênico."
+    ],
+    "c16": [
+     "Sai do Meu Quintal",
+     "Nada de saquear cabanas, casas, fortes, comércios ou qualquer lugar que tenha dono ou esteja claramente habitado. Se parecer abandonado, pode saquear. Se parecer que alguém mora ali, não pode."
+    ],
+    "c17": [
+     "Catador",
+     "Você não pode comprar nada de ninguém. Só pode fabricar, consertar, desmontar e vender."
+    ],
+    "c18": [
+     "Catador Beberrão",
+     "Você não pode comprar nada de ninguém, EXCETO os ingredientes para destilar Gaivota Branca. Isso libera as versões superiores da alquimia e o equipamento de bruxo avançado. Fabricar, consertar, desmontar e vender continuam liberados."
+    ],
+    "c19": [
+     "Caçador",
+     "Você só pode saquear seres e corpos que você mesmo matou, com algumas exceções: itens obrigatórios da história principal, itens de contratos de bruxo e diagramas de equipamento de bruxo. Nada mais de nenhuma outra missão. Destruir um ninho de monstros conta como abate, então pode saquear ninhos. Fora isso, nada de tesouros guardados, acampamentos de bandidos, baús de caça ao tesouro, corpos que já estavam mortos, baús, caixas, engradados, sacos, pacotes, bolsas ou qualquer outra coisa do cenário. Isso inclui plantas e ervas. Fabricar, consertar, desmontar, comprar e vender continuam liberados."
+    ],
+    "c20": [
+     "Básico",
+     "Nenhuma arma ou armadura de bruxo."
+    ],
+    "c21": [
+     "Almofadinha",
+     "SÓ armas e armaduras de bruxo. Nenhuma outra."
+    ],
+    "c22": [
+     "Peça Única",
+     "Só armas únicas, com nome próprio e claramente especiais, como Lâmina da Lua, Aerondight, Caroline etc. Pode encontrar, fabricar ou comprar. Nada de armadura ou arma de bruxo."
+    ],
+    "c23": [
+     "Banditismo Sob Medida",
+     "Só armas e armaduras que você mesmo FABRICAR com armeiros e ferreiros. Nada de equipamento de bruxo."
+    ],
+    "c24": [
+     "Breath of the Wild",
+     "Nada de consertos. Se quebrar, descarte, venda ou desmonte, mas não conserte."
+    ],
+    "c25": [
+     "Sem Reciclagem",
+     "Você não pode desmontar nada."
+    ],
+    "c26": [
+     "Dark Souls",
+     "Só pode meditar ao lado de uma fogueira OU num lugar seguro (dentro de taverna, estalagem etc.)."
+    ],
+    "c27": [
+     "Fôlego Contado",
+     "Só pode salvar nos postes de viagem rápida."
+    ],
+    "c28": [
+     "Odeio Mapas",
+     "Sem minimapa (desligue nas opções). O mapa principal ainda pode ser usado para navegar."
+    ],
+    "c29": [
+     "Conheça o Inimigo",
+     "Sem barras de vida dos inimigos (desligue nas opções)."
+    ],
+    "c30": [
+     "Conheça o Chefe",
+     "Sem barras de vida dos chefes (desligue nas opções)."
+    ],
+    "c31": [
+     "Cadê Minha Vida?",
+     "Desligue a sua barra de vida nas opções (a interface inteira)."
+    ],
+    "c32": [
+     "Andarilho",
+     "Sem viagem rápida (exceto quando for preciso para sair de um mapa ou entrar em outro)."
+    ],
+    "c33": [
+     "Vida Extra",
+     "Você pode morrer uma vez por combate, mas precisa voltar direto para a mesma luta depois de carregar. Se morrer de novo, acabou: comece um jogo novo do zero. Dá para morrer várias vezes na partida, mas só uma vez por luta."
+    ],
+    "c34": [
+     "O Extremo",
+     "Morreu uma vez, acabou: comece um jogo novo do zero."
+    ],
+    "c35": [
+     "Gwenteiro",
+     "Jogue gwent na dificuldade máxima (dá para mudar nas configurações)."
+    ],
+    "c36": [
+     "Gwent Extremista",
+     "Todas as cartas que você conseguir vão para o baralho (fica mais difícil tirar as boas). Não vale ficar no mínimo de 25 cartas."
+    ]
    }
   }
  }

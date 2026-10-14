@@ -159,7 +159,30 @@
   "translateCta": "Want it in your language?",
   "translateLink": "Help translate",
   "translationBy": "Translation: {who}",
-  "originalName": "Original name"
+  "originalName": "Original name",
+  "tabExtras": "Extras",
+  "xGear": "Witcher gear",
+  "xTrophies": "Trophies",
+  "xChallenges": "Challenges",
+  "searchExtras": "Search gear, trophies or challenges",
+  "secM": "Where to get the maps",
+  "secBase": "Base set",
+  "secPart": "Part {n}",
+  "secGm": "Grandmaster",
+  "xGearIntro": "Where every diagram is. Tap the map icon to see the spot. Each part shows its quest on the route: check it off there, it shows up here.",
+  "xGoQuest": "Show this quest on the route",
+  "xMap": "Map",
+  "xMapOf": "Map for {name}",
+  "xOpen": "Open link",
+  "xImgFail": "This image didn't load here. Open it with the link below.",
+  "xOpenOriginal": "Open the original image",
+  "xTroIntro": "For reference. Missable ones are flagged, and spoilers stay hidden until you tap.",
+  "xTroGuide": "Full trophy guide (PSNProfiles)",
+  "xGrp_base": "Base game",
+  "xGrp_hos": "Hearts of Stone",
+  "xGrp_baw": "Blood and Wine",
+  "xSpoiler": "Spoiler · tap to show",
+  "xChIntro": "Optional rules for a harder playthrough. List by {who}, from ChrisRi's guide."
  },
  "content": {
   "chapters": {
@@ -1888,6 +1911,288 @@
     "Blood and Wine: Tourney Grounds' armorer": "Blood and Wine: Tourney Grounds' armorer",
     "Blood and Wine: Tourney Grounds' barber": "Blood and Wine: Tourney Grounds' barber",
     "Blood and Wine: Won Beauclair Port's butcher": "Blood and Wine: Won Beauclair Port's butcher"
+   }
+  },
+  "extras": {
+   "schools": {
+    "bear": "Bear (Ursine)",
+    "cat": "Cat (Feline)",
+    "griffin": "Griffin",
+    "viper": "Viper",
+    "wolf": "Wolf",
+    "manticore": "Manticore",
+    "fwolf": "Forgotten Wolf"
+   },
+   "gear": {
+    "Buy Ibrahim Savi's maps (1,2,3,4) from the armorer of Kaer Trolde in Skellige": "Buy Ibrahim Savi's maps (1,2,3,4) from the armorer of Kaer Trolde in Skellige",
+    "Steel Sword": "Steel Sword",
+    "Silver Sword": "Silver Sword",
+    "Armor": "Armor",
+    "Trousers": "Trousers",
+    "Boots": "Boots",
+    "Gauntlets": "Gauntlets",
+    "Crossbow": "Crossbow",
+    "Enhanced Armor": "Enhanced Armor",
+    "Enhanced Boots": "Enhanced Boots",
+    "Enhanced Silver Sword": "Enhanced Silver Sword",
+    "Enhanced Gauntlets": "Enhanced Gauntlets",
+    "Enhanced Trousers": "Enhanced Trousers",
+    "Enhanced Steel Sword": "Enhanced Steel Sword",
+    "Superior Armor": "Superior Armor",
+    "Superior Boots": "Superior Boots",
+    "Superior Gauntlets": "Superior Gauntlets",
+    "Superior Trousers": "Superior Trousers",
+    "Superior Steel Sword": "Superior Steel Sword",
+    "Superior Silver Sword": "Superior Silver Sword",
+    "Mastercrafted Steel Sword": "Mastercrafted Steel Sword",
+    "Mastercrafted Silver Sword": "Mastercrafted Silver Sword",
+    "Mastercrafted Armor": "Mastercrafted Armor",
+    "Mastercrafted Trousers": "Mastercrafted Trousers",
+    "Mastercrafted Boots": "Mastercrafted Boots",
+    "Mastercrafted Gauntlets": "Mastercrafted Gauntlets",
+    "Buy Adalbert Kermith's map (1) from the merchant of Blackbough": "Buy Adalbert Kermith's map (1) from the merchant of Blackbough",
+    "Buy Adalbert Kermith's map (2) from the blacksmith of Blackbough": "Buy Adalbert Kermith's map (2) from the blacksmith of Blackbough",
+    "Buy Adalbert Kermith's maps (3) from the quartermaster of Crow's Perch": "Buy Adalbert Kermith's maps (3) from the quartermaster of Crow's Perch",
+    "Buy Adalbert Kermith's maps (4) from the blacksmith of Lindenvale": "Buy Adalbert Kermith's maps (4) from the blacksmith of Lindenvale",
+    "Buy Edwin Greloff's maps (1,2) from the armorer of Midcopse": "Buy Edwin Greloff's maps (1,2) from the armorer of Midcopse",
+    "Buy Edwin Greloff's maps (3) from the armorer of Hierarch Square": "Buy Edwin Greloff's maps (3) from the armorer of Hierarch Square",
+    "Buy Edwin Greloff's maps (4) from the elven blacksmith near Glory Gate signpost in Novigrad": "Buy Edwin Greloff's maps (4) from the elven blacksmith near Glory Gate signpost in Novigrad",
+    "Diagrams for the armor, boots, gauntlets, and trousers purchased from Countess Mignole during 'Open Sesame'": "Diagrams for the armor, boots, gauntlets, and trousers purchased from Countess Mignole during 'Open Sesame'",
+    "Silver Sword in the basement of the chapel of White Orchard Cemetary": "Silver Sword in the basement of the chapel of White Orchard Cemetary",
+    "Steel Sword is found in a chest of the Amavet Fortress Ruins just west of the ransacked village fast travel point in White Orchard": "Steel Sword is found in a chest of the Amavet Fortress Ruins just west of the ransacked village fast travel point in White Orchard",
+    "Viper Venomous Silver Sword can only be found during Whatsoever a Man Soweth and you will find it stuck in a stone in Gaunter's world. You do not find a diagram, but the actual sword in this situation.": "Viper Venomous Silver Sword can only be found during Whatsoever a Man Soweth and you will find it stuck in a stone in Gaunter's world. You do not find a diagram, but the actual sword in this situation.",
+    "Viper Venomous Steel Sword is found during Open Sesame and it will be in one of the chests inside the vault": "Viper Venomous Steel Sword is found during Open Sesame and it will be in one of the chests inside the vault",
+    "Buy slightly torn notes (1) by Hieronymus from the blacksmith of Lindenvale": "Buy slightly torn notes (1) by Hieronymus from the blacksmith of Lindenvale",
+    "Buy well-preserved notes (2) by Hieronymus from the elven blacksmith near Glory Gate signpost in Novigrad": "Buy well-preserved notes (2) by Hieronymus from the elven blacksmith near Glory Gate signpost in Novigrad",
+    "Buy heavily faded notes (3,5) by Hieronymus from the armorer of Hierarch Square": "Buy heavily faded notes (3,5) by Hieronymus from the armorer of Hierarch Square",
+    "Buy damp, moldy notes (4) by Hieronymus from the armorer of Kaer Trolde": "Buy damp, moldy notes (4) by Hieronymus from the armorer of Kaer Trolde",
+    "Buy worn-out and faded notes (6) by Hieronymus from the elven blacksmith near Glory Gate signpost in Novigrad": "Buy worn-out and faded notes (6) by Hieronymus from the elven blacksmith near Glory Gate signpost in Novigrad",
+    "Buy notes on parchment (7) by Hieronymus from the armorer of Kaer Trolde": "Buy notes on parchment (7) by Hieronymus from the armorer of Kaer Trolde",
+    "Given by Lafargue during Master Master Master Master": "Given by Lafargue during Master Master Master Master",
+    "Complete 'In the Eternal Fire's Shadow' to receive the base set diagrams and the locatioin of the other two sets": "Complete 'In the Eternal Fire's Shadow' to receive the base set diagrams and the locatioin of the other two sets"
+   },
+   "trophies": {
+    "t3": "Find and free Dandelion.",
+    "t4": "Play three hero cards in one round of gwent and win the match.",
+    "t5": "Find and equip all the elements of one set of witcher gear.",
+    "t6": "Complete the contract on Therazane.",
+    "t7": "Take part in the assassination of King Radovid.",
+    "t8": "Collect the formulae for 6 different bomb types.",
+    "t9": "Read 30 books, journals or other documents.",
+    "t10": "Complete all fistfighting quests in Velen, Skellige and Novigrad.",
+    "t11": "Defeat Olaf, the Skellige champion of unarmed combat.",
+    "t12": "Kill at least 5 opponents in under 10 seconds.",
+    "t13": "Kill 5 foes in a fight without taking damage (except for Toxicity) and without using the Quen Sign.",
+    "t14": "Acquire all gwent cards available in the base version of the game.",
+    "t15": "Acquire all the Abilities in one tree.",
+    "t16": "Kill 50 opponents using the environment (e.g. swamp gas, insects or objects).",
+    "t17": "Kill 2 monsters you have a contract on without using Signs, potions, mutagens, oils or bombs.",
+    "t18": "Find the baron's wife and daughter.",
+    "t19": "Win all the horse races in the game.",
+    "t20": "Complete the contract on Sarasti.",
+    "t21": "Complete the contract on Morvudd.",
+    "t22": "Destroy 10 monster nests using bombs.",
+    "t23": "Defeat an opponent in a fistfight without taking any damage.",
+    "t24": "Complete the subplot involving Keira Metz.",
+    "t25": "Bring all possible allies to Kaer Morhen for the battle against the Hunt.",
+    "t26": "Win a round of gwent using only neutral cards.",
+    "t27": "Complete all witcher contracts.",
+    "t28": "Discover 100 fast travel points.",
+    "t29": "Defeat Tybalt and win the gwent tournament held at the Passiflora.",
+    "t30": "Kill 10 opponents by knocking them off somewhere high with the Aard Sign.",
+    "t31": "Perform 10 effective counterattacks in a row without getting hit or parrying.",
+    "t32": "Complete the subplot about choosing Skellige's ruler.",
+    "t33": "Learn 12 potion formulae.",
+    "t34": "Find Yennefer of Vengerberg.",
+    "t35": "Kill 50 human and nonhuman opponents by striking them in the head with a crossbow bolt.",
+    "t36": "Reach character development level 35.",
+    "t37": "Fill all mutagen slots.",
+    "t38": "Help Yennefer extract information from Skjall's body.",
+    "t39": "Make an opponent suffer from bleeding, poisoning and burning simultaneously. Do this 10 times.",
+    "t40": "Finish the game on any difficulty.",
+    "t41": "Destroy all monster nests in the Velen / Novigrad region, or in Skellige.",
+    "t42": "Have all possible Place of Power bonuses active at the same time.",
+    "t43": "Finish the game on the \"Blood and Broken Bones!\" or \"Death March!\" difficulty levels.",
+    "t44": "Complete the contract on the shrieker.",
+    "t45": "Find Ciri.",
+    "t46": "Ignite the gas produced by a Dragon's Dream bomb using a burning opponent. Do this 10 times.",
+    "t47": "Resolve the doppler problem in Novigrad.",
+    "t48": "Use the Axii Sign to force one opponent to kill another. Do this 20 times.",
+    "t49": "Defeat Eredin.",
+    "t50": "Collect all trophies. Note: This is a PlayStation exclusive achievement.",
+    "t51": "Kill 3 opponents in one fight using 3 different methods (sword, bombs, crossbow, Signs, etc.)",
+    "t52": "Finish the game on the \"Death March!\" difficulty level.",
+    "t53": "Attack, counter, cast a Sign and throw a bomb (in any order) in under 4 seconds.",
+    "t54": "Complete the contract on the Woodland Spirit.",
+    "t55": "Visit Tir ná Lia and convince Ge'els to betray Eredin.",
+    "t58": "Be under the influence of seven potions or decoctions at the same time.",
+    "t59": "Recreate all of Iris' nightmares in the Painted World.",
+    "t60": "Collect all available Ofieri armor and horse gear, and at least one Ofieri sword.",
+    "t61": "Kill the prince cursed into a toad.",
+    "t62": "Win a round of gwent with a total strength of at least 187.",
+    "t63": "Participate in all the activities at the wedding.",
+    "t64": "Kill 20 cows.",
+    "t65": "Finish the \"Hearts of Stone\" expansion.",
+    "t66": "Slide downhill uninterrupted for at least 10 seconds.",
+    "t67": "Kill 3 opponents with their own arrows.",
+    "t68": "Buy all the items put on the block at the Borsodis' Auction House.",
+    "t69": "Provoke all Iris von Everec's Nightmares into fighting you at the same time and defeat them.",
+    "t70": "Destroy all the fallen knights of the Order of the Flaming Rose's campsites.",
+    "t73": "Obtain a flawless victory in all the competitions during the knights' tourney.",
+    "t74": "Kill Golyat with a crossbow bolt to his eye.",
+    "t75": "Unlock the bonus for equipping all the witcher gear elements from one School.",
+    "t76": "Be given Aerondight by the Lady of the Lake.",
+    "t77": "Kill a frozen opponent with a crossbow bolt.",
+    "t78": "Collect all the cards in the Skellige deck.",
+    "t79": "Serve time in Toussaint.",
+    "t80": "Be decorated with the Order of Vitis Vinifera.",
+    "t81": "Use all available options for developing Corvo Bianco.",
+    "t82": "Help unite the warring vineyards and have wine named in your honor.",
+    "t83": "Travel to the Duchy of Toussaint.",
+    "t84": "Find all grandmaster diagrams for each witcher school.",
+    "t85": "Develop a mutation."
+   },
+   "challenges": {
+    "c2": [
+     "Deathmarch",
+     "Play on the deathmarch difficulty"
+    ],
+    "c3": [
+     "Scaling",
+     "Enemy scaling is on"
+    ],
+    "c4": [
+     "Quen Quitter",
+     "You cannot use Quen at all throughout the playthrough"
+    ],
+    "c5": [
+     "Mere Mortal",
+     "No signs allowed in combat (they can be used for story missions and quests, to light fires, clear terrain, etc. but nothing in combat"
+    ],
+    "c6": [
+     "Instrument of Death",
+     "Combat abilities only, no ability points can be spent on signs, alchemy, or general abilities"
+    ],
+    "c7": [
+     "The Jedi Way",
+     "Sign abilities only, no ability points can be spent on combat, alchemy, or general abilities"
+    ],
+    "c8": [
+     "Lead into Gold",
+     "Alchemy abilities only, no ability points can be spent on combat, signs, or general abilities"
+    ],
+    "c9": [
+     "Plain Jane",
+     "General abilities only, no ability points can be spent on combat, signs, or alchemy abilities"
+    ],
+    "c10": [
+     "Mr. Tough Guy",
+     "No ability points can be used at all"
+    ],
+    "c11": [
+     "Greasy Spoon",
+     "You cannot use the gourmet ability"
+    ],
+    "c12": [
+     "Top-Shelf Taste",
+     "Only decoctions can be used, no potions allowed"
+    ],
+    "c13": [
+     "Off the Sauce",
+     "No potions or decoctions allowed"
+    ],
+    "c14": [
+     "Going in Dry",
+     "No oils allowed"
+    ],
+    "c15": [
+     "Purebred",
+     "No mutagens allowed"
+    ],
+    "c16": [
+     "Get Off My Lawn",
+     "No looting huts, houses, forts, businesses, or anywhere that someone owns or is clearly inhabiting. If a hut, village, house, etc. appears deserted, THEN you may loot it. If it appears to possibly be in use/inhabited, you should not loot"
+    ],
+    "c17": [
+     "Scavenger",
+     "You cannot buy anything from anyone. You can only craft, repair, dismantle, and sell things"
+    ],
+    "c18": [
+     "Scavenger Souse",
+     "You cannot buy anything from anyone EXCEPT any ingredients needed to brew white gull. This enables you to create the superior forms of alchemy items and craft advanced witcher gear. You can still craft, repair, dismantle, and sell anything"
+    ],
+    "c19": [
+     "Hunter",
+     "You cannot loot anything EXCEPT from beings/corpses that you killed, with a few exceptions. You can loot things that are mandatory for main story quest progression, things for witcher contracts, and you can loot witcher equipment diagrams. You cannot loot ANYTHING else for any other quests, missions, etc. Destroying a monster nest counts as a kill, so you can loot monster nests, but otherwise you cannot loot anything except from the corpses of monsters, beasts, or humanoids that you yourself killed. Thus, you cannot loot any guarded treasures, bandit camps, treasure hunt chests/items, any already dead corpses, any chests, boxes, crates, sacks, packages, satchels, or anything else in the environment. This includes plants/herbs. You can still craft, repair, dismantle, and buy and sell anything."
+    ],
+    "c20": [
+     "Basic",
+     "No witcher weapons or armor allowed"
+    ],
+    "c21": [
+     "Fancy Boy",
+     "Witcher weapons and armor ONLY, no other weapons or armor allowed"
+    ],
+    "c22": [
+     "One-of-a-Kind",
+     "Only unique weapons allowed. Only weapons that have special names and are clearly unique can be used, such as Moonblade, Aerondight, Caroline, etc. You can find these weapons and craft/buy them. However, no witcher armor/weapons allowed"
+    ],
+    "c23": [
+     "Bespoke Banditry",
+     "Custom-made weapons and armor only. You can only use weapons and armor that you yourself CRAFT at armorers and smiths. No witcher armor/weapons allowed"
+    ],
+    "c24": [
+     "Breath of the Wild",
+     "No repairs allowed. If something breaks, discard it, sell it, dismantly it, etc. but you cannot repair anything"
+    ],
+    "c25": [
+     "No Recycling",
+     "You cannot dismantle anything"
+    ],
+    "c26": [
+     "Dark Souls",
+     "You can only meditate next to a bonfire OR a place of increased safety (inside a tavern, inn, etc.)"
+    ],
+    "c27": [
+     "Save Your Breath",
+     "You can only save at sign posts"
+    ],
+    "c28": [
+     "Map Hater",
+     "No minimap allowed (turn off in the options). You can still bring up the main map for navigation"
+    ],
+    "c29": [
+     "Know Your Enemy",
+     "No enemy health bars allowed to be displayed (turn off in the options)"
+    ],
+    "c30": [
+     "Know Your Boss",
+     "No boss health bars allowed to be displayed (turn off in the options)"
+    ],
+    "c31": [
+     "Where's My Health Bar?",
+     "Turn off your health bar in the options (the entire HUD)"
+    ],
+    "c32": [
+     "Globetrotter",
+     "No fast travel allowed (except when needed to leave a map/enter a new map)"
+    ],
+    "c33": [
+     "1 Up",
+     "You can die once in a combat encounter/fight, but you must immediately return to that encounter/fight after you reload into the game and if you die again, it's game over for good. You must start a completely new game. You can die multiple times in a playthrough, but you can only die once per fight"
+    ],
+    "c34": [
+     "The Extreme",
+     "If you die even once, it's game over for good. You must start a completely new game"
+    ],
+    "c35": [
+     "Gwenter",
+     "Play Gwent on the max difficulty (can be changed in the settings)"
+    ],
+    "c36": [
+     "Gwent Extremist",
+     "You must use all the cards you acquire and put them in your deck (this makes it challenging since it is less likely to get the good cards in each hand). You cannot have the 25 minimum number of cards."
+    ]
    }
   }
  }

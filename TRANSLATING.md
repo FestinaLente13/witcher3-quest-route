@@ -22,6 +22,7 @@ Thanks for helping! Each language is a single JSON file in `i18n/`.
 | `content.chapters`, `content.notes` | Chapter titles and route notes | |
 | `content.tips` | 900+ tips | The big one. Partial is fine. |
 | `content.gwent` | Faction names, card names, card locations | Keep character names as the game spells them |
+| `content.extras` | Extras tab: witcher school names (`schools`), gear pieces and where to buy the maps (`gear`, keyed by the English text), trophy requirements (`trophies`), challenge runs as `[name, description]` (`challenges`) | Trophy names stay in English in the app, so only translate the requirement |
 
 ## Rules of thumb
 

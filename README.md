@@ -5,7 +5,7 @@
 >
 > ### ☕ If it helps you, [buy ChrisRi a coffee](https://buymeacoffee.com/ChrisRi).
 >
-> The original Google Sheet has a lot more than this viewer shows: the full alchemy ingredient guide, scavenger hunt maps, the trophy list, challenge runs and Chris's changelog. **[Open the original guide](https://docs.google.com/spreadsheets/d/12H5lZC6vLFj0JToLSD2ZE7EcMN6MrmltL9SM_G6EUNU/edit?usp=sharing)**.
+> The original Google Sheet also has things this viewer leaves out, like the full alchemy ingredient guide and Chris's changelog. **[Open the original guide](https://docs.google.com/spreadsheets/d/12H5lZC6vLFj0JToLSD2ZE7EcMN6MrmltL9SM_G6EUNU/edit?usp=sharing)**.
 
 A free, phone-friendly checklist for playing **The Witcher 3** (base game + Hearts of Stone + Blood and Wine) in the optimal quest order.
 
@@ -19,6 +19,7 @@ A free, phone-friendly checklist for playing **The Witcher 3** (base game + Hear
 - **Curator's picks** (by *Festina Lente*): while playing along the route, the curator slots free quests next to nearby route quests of a similar level, with short notes. They update weekly, and you can turn them off in Settings.
 - All the guide's tips, with video and map links where the original had them
 - Gwent card checklist with where to find each copy
+- **Extras** (reference only, nothing extra to check off): where every witcher gear diagram is, with the location map one tap away and the matching route quest; the trophy list with missables flagged and spoilers hidden; and the challenge-run list (by llamanthesky)
 - No account, no ads, no cookies. Progress stays in your browser, and you can export it to a file and import it on another device. The only thing sent anywhere is an anonymous visit count ([GoatCounter](https://www.goatcounter.com/), which stores no personal data), so the maintainer can see whether people use it. Forks don't send it.
 
 ## Your data vs. the curator's picks
@@ -42,12 +43,13 @@ A single static page (`index.html`) that loads:
 | File | What's in it |
 |---|---|
 | `data/guide.json` | Quest order, levels, categories, tips and Gwent cards, from ChrisRi's guide (English) |
+| `data/extras.json` | Witcher gear diagrams and maps, trophies, challenge runs (from the guide's other tabs) |
 | `data/curated.json` | Curator's picks: free-quest placement, notes, map markers, order |
 | `i18n/*.json` | One file per language: interface strings and content translations |
 
 No build step and no dependencies.
 
-Region illustrations are drawn in code. Fan project: free, and not affiliated with CD PROJEKT RED.
+The gear location maps aren't stored here: the app loads them straight from the pages the guide links to (mostly the Witcher Wiki on Fandom), so credit and copyright stay with those sites. Region illustrations are drawn in code. Fan project: free, and not affiliated with CD PROJEKT RED.
 
 ## License
 

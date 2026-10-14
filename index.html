@@ -322,6 +322,44 @@ mark{background:color-mix(in srgb,var(--c-contract) 40%,transparent);color:inher
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
+/* extras: witcher gear, trophies, challenges (reference lists) */
+@media (max-width:420px){ .tabs{gap:4px} .tab{font-size:13.5px;gap:4px;padding:0 2px} .tab small{font-size:11.5px} }
+.xview{margin-top:14px}
+.xh{font-family:var(--f-display);font-size:20px;margin:18px 0 0;color:var(--muted)}
+.xsch{margin-top:2px}
+.xsch .fcat[aria-pressed="true"]{background:var(--silver);color:var(--silver-ink);border-color:var(--silver)}
+.xsch .fcat[aria-pressed="false"]{opacity:1}
+.xsec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);margin-bottom:8px;overflow:hidden}
+.xsec > header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:8px 10px 8px 12px;border-bottom:1px solid var(--line);background:var(--bg2)}
+.xsec h4{margin:0;font-size:15px;flex:1 1 auto}
+.xq{display:inline-flex;align-items:center;gap:6px;max-width:100%;min-height:30px;border:1px solid var(--line2);border-radius:999px;padding:2px 10px 2px 8px;font-size:12.5px;color:var(--muted);background:var(--surface);text-align:left}
+.xq .xqn{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.xq:hover{color:var(--ink)}
+.xq.done{color:var(--lo);border-color:var(--line)}
+.xok{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:5px;background:var(--silver);color:var(--silver-ink);flex:none}
+.xok svg{width:12px;height:12px}
+.xsec.done .xt{color:var(--muted)}
+.xis{display:flex;flex-direction:column}
+.xi{display:flex;align-items:stretch;min-height:44px}
+.xi + .xi{border-top:1px solid var(--line)}
+.xt{flex:1;min-width:0;padding:10px 12px;font-size:14.5px;line-height:1.35;align-self:center}
+.xi .rb{border-left:1px solid var(--line);min-width:52px}
+.xmerch .xt{padding-left:6px;color:var(--ink)}
+.xic{display:grid;place-items:center;padding-left:12px;color:var(--faint)}
+.xic svg{width:16px;height:16px}
+.xtro h4{align-items:center}
+.xtro .rb.xw{min-width:36px;min-height:32px;margin:-6px -8px -6px auto;border-radius:8px}
+.xtro h4 .flag + .rb.xw{margin-left:6px}
+.xtro h4 .flag{margin-left:auto}
+.xchip i{display:none}
+.xtro .flag{flex:none}
+.xr{margin:4px 0 0;font-size:14px;line-height:1.4;color:var(--muted)}
+.xsp{margin-top:6px;border:1px dashed var(--line2);border-radius:8px;padding:6px 10px;font-size:13px;color:var(--faint);background:repeating-linear-gradient(135deg,transparent 0 6px,var(--bg2) 6px 12px)}
+.ximg{margin:0 -12px;background:#000;min-height:120px;display:grid;place-items:center}
+.ximg img{display:block;width:100%;height:auto}
+.xfail{padding:24px 16px;color:#c9d1d0;text-align:center;font-size:14px}
+.xsrc{margin:10px 0 0;font-size:14px}
+
 /* ---------- public-site additions ---------- */
 .boot{padding:60px 16px;text-align:center;color:var(--muted)}
 .qnote.cur{background:color-mix(in srgb,var(--silver) 14%,transparent)}
@@ -373,6 +411,7 @@ mark{background:color-mix(in srgb,var(--c-contract) 40%,transparent);color:inher
       <button class="tab" id="tabQ" role="tab" aria-selected="true"><span data-t="tabQuests">Quests</span> <small id="tabQn"></small></button>
       <button class="tab" id="tabF" role="tab" aria-selected="false"><span data-t="tabFree">Free</span> <small id="tabFn"></small></button>
       <button class="tab" id="tabG" role="tab" aria-selected="false"><span data-t="tabGwent">Gwent</span> <small id="tabGn"></small></button>
+      <button class="tab" id="tabX" role="tab" aria-selected="false"><span data-t="tabExtras">Extras</span></button>
     </div>
     <div class="chips" id="chips"></div>
     <div class="tools">
@@ -454,6 +493,8 @@ const AFTER = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke
 const UP = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13V3.5M4.2 7.3 8 3.5l3.8 3.8"/></svg>';
 const DOWN = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v9.5M4.2 8.7 8 12.5l3.8-3.8"/></svg>';
 const GRIP = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5h10M3 8h10M3 11h10"/></svg>';
+const MAPI = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 4l4-1.5 5 2 4-1.5v9.5l-4 1.5-5-2-4 1.5zM5.5 2.5v9.5M10.5 4.5V14"/></svg>';
+const COIN = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 5.5h11l-1 8h-9zM5.5 5.5V4a2.5 2.5 0 0 1 5 0v1.5"/></svg>';
 const EXT = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h4v4M13 3 7 9M11 9.5V13H3V5h3.5"/></svg>';
 const MARKS = {
   skull:'<path d="M12 3C7.6 3 4.5 6 4.5 10.2c0 2.5 1.1 4.3 2.7 5.4V19a1 1 0 0 0 1 1h7.6a1 1 0 0 0 1-1v-3.4c1.6-1.1 2.7-2.9 2.7-5.4C19.5 6 16.4 3 12 3z" fill="#d6453a" stroke="#2a0d0b" stroke-width="1.2"/><circle cx="9.2" cy="11" r="2" fill="#2a0d0b"/><circle cx="14.8" cy="11" r="2" fill="#2a0d0b"/><path d="M12 13.4l-1 2h2z" fill="#2a0d0b"/><path d="M10 17.3v2.4M12 17.3v2.4M14 17.3v2.4" stroke="#2a0d0b" stroke-width="1"/>',
@@ -495,6 +536,11 @@ function facName(f){ const g = C().gwent && C().gwent.factions && C().gwent.fact
 function facAb(f){ const g = C().gwent && C().gwent.factions && C().gwent.factions[f.id]; return (g && g.ab) || f.ab; }
 function cardName(n){ return (C().gwent && C().gwent.cards && C().gwent.cards[n]) || n; }
 function locName(l){ return (C().gwent && C().gwent.loc && C().gwent.loc[l]) || l; }
+const XC = () => C().extras || {};
+function xSchool(g){ return (XC().schools && XC().schools[g.id]) || g.n; }
+function xGear(n){ return (XC().gear && XC().gear[n]) || n; }
+function xTro(it){ return (XC().trophies && XC().trophies[it.id]) || it.r; }
+function xCh(c){ const v = XC().challenges && XC().challenges[c.id]; return v ? {n:v[0] || c.n, d:v[1] || c.d} : {n:c.n, d:c.d}; }
 function noteFor(q){ // curator note in the current language, falling back to English
   const p = CUR.picks && CUR.picks[q.id]; if (!p || !p.note) return '';
   return p.note[L.code] || p.note.en || '';
@@ -547,7 +593,7 @@ function hay(q){
 
 /* ================= state ================= */
 const state = {q:new Set(), d:new Set(), g:new Set(), lvl:null, ord:{}, after:{}, mk:{}, nt:{}, useCur:true};
-const ui = {tab:'q', ch:null, fch:null, open:new Set(), hide:false, cats:new Set(CAT_KEYS), query:'', fac:0, anyShut:{}, reorder:null, both:false};
+const ui = {xsec:'gear', school:null, reveal:new Set(), tab:'q', ch:null, fch:null, open:new Set(), hide:false, cats:new Set(CAT_KEYS), query:'', fac:0, anyShut:{}, reorder:null, both:false};
 function applySave(o){
   if (!o || typeof o !== 'object') return;
   state.q = new Set(Array.isArray(o.q) ? o.q : []); state.d = new Set(Array.isArray(o.d) ? o.d : []); state.g = new Set(Array.isArray(o.g) ? o.g : []);
@@ -699,6 +745,9 @@ function renderChips(){
       const qs = FREE.filter(q => q.ch === ch); if (!qs.length) return '';
       return chip('fch', ch.id, ui.fch === ch.id, nx && nx.ch === ch, chName(ch), qs.filter(isDone).length, qs.length);
     }).join('');
+  } else if (ui.tab === 'x'){
+    const xs = [['gear', 'xGear', X ? X.gear.length : 0], ['trophies', 'xTrophies', X ? X.trophies.reduce((a, g) => a + g.items.length, 0) : 0], ['challenges', 'xChallenges', X ? X.challenges.length : 0]];
+    el.innerHTML = xs.map(([k, lab, n]) => `<button class="chip xchip" data-act="xsec" data-id="${k}" aria-pressed="${ui.xsec === k}"><b>${esc(t(lab))}</b></button>`).join('');
   } else if (ui.tab === 'g'){
     el.innerHTML = GW.map((f,i) => {
       let tt = 0, d = 0; f.cards.forEach(c => c[1].forEach(cp => { tt++; if (state.g.has(cp[0])) d++; }));
@@ -804,6 +853,7 @@ function itemsHTML(items, nx){
 function renderMain(){
   const main = $('main'), nx = nextQuest();
   if (ui.tab === 'g'){ main.innerHTML = gwentHTML(); return; }
+  if (ui.tab === 'x'){ main.innerHTML = extrasHTML(); return; }
   if (ui.query && norm(ui.query).length >= 2){
     const qn = norm(ui.query);
     const hits = Q.filter(q => (hay(q).includes(qn) || (state.nt[q.id] && norm(state.nt[q.id]).includes(qn)) || norm(noteFor(q)).includes(qn)) && ui.cats.has(q.c) && !(ui.hide && isDone(q)) && (ui.tab !== 'f' || q.any));
@@ -844,6 +894,84 @@ function gwentHTML(){
   });
   return out || `<div class="empty">${esc(t('noCards'))}</div>`;
 }
+/* ================= extras: witcher gear, trophies, challenge runs (reference only) ================= */
+let X = null, xLoading = null;
+function loadExtras(){
+  if (X || xLoading) return;
+  xLoading = getJSON('data/extras.json').then(d => { X = d; if (ui.tab === 'x'){ renderChips(); renderMain(); } })
+    .catch(e => { console.error(e); xLoading = null; if (ui.tab === 'x') $('main').innerHTML = `<div class="empty">${esc(t('loadFail'))}</div>`; });
+}
+function secLabel(k){ return k === 'm' ? t('secM') : k === 'base' ? t('secBase') : k === 'gm' ? t('secGm') : t('secPart', {n:k.slice(1)}); }
+function secDone(s){ return !!(s.q && QI[s.q] && isDone(QI[s.q])); }
+function defaultSchool(){ // the school whose next unfinished part has the lowest suggested level
+  let best = null, bl = 1e9;
+  X.gear.forEach(g => g.secs.forEach(s => { const q = s.q && QI[s.q]; if (q && !isDone(q) && q.lv != null && q.lv < bl){ bl = q.lv; best = g.id; } }));
+  return best || X.gear[0].id;
+}
+function xItemHTML(it, merchant, ctx){
+  const txt = xGear(it.n), l = it.l;
+  let btn = '';
+  if (l && l[0] === 'img') btn = `<button class="rb xm" data-act="ximg" data-u="${esc(l[1])}" data-cap="${esc(ctx + txt)}" aria-label="${esc(t('xMapOf', {name:txt}))}" title="${esc(t('xMap'))}">${MAPI}</button>`;
+  else if (l) btn = `<a class="rb" href="${esc(l[1])}" target="_blank" rel="noopener" aria-label="${esc(t('xOpen'))}" title="${esc(t('xOpen'))}">${EXT}</a>`;
+  return `<div class="xi ${merchant ? 'xmerch' : ''}">${merchant ? `<span class="xic">${COIN}</span>` : ''}<span class="xt">${hl(txt)}${txt !== it.n && ui.both ? `<span class="qe">${hl(it.n)}</span>` : ''}</span>${btn}</div>`;
+}
+function gearHTML(qn){
+  const match = it => !qn || norm(it.n + ' ' + xGear(it.n)).includes(qn);
+  const schools = qn ? X.gear : [X.gear.find(g => g.id === ui.school) || X.gear[0]];
+  let out = '';
+  if (!qn) out += `<p class="fab">${esc(t('xGearIntro'))}</p><div class="legend xsch">` + X.gear.map(g => `<button class="fcat" data-act="xschool" data-id="${g.id}" aria-pressed="${g.id === ui.school}">${esc(xSchool(g))}</button>`).join('') + `</div>`;
+  schools.forEach(g => {
+    const secs = g.secs.map(s => {
+      if (ui.hide && secDone(s)) return '';
+      const qn2 = norm(xSchool(g) + ' ' + secLabel(s.k));
+      const items = s.items.filter(it => match(it) || (qn && qn2.includes(qn)));
+      if (!items.length) return '';
+      const q = s.q && QI[s.q], done = secDone(s);
+      const rq = q ? `<button class="xq ${done ? 'done' : ''}" data-act="goto" data-id="${q.id}" title="${esc(t('xGoQuest'))}">${done ? `<span class="xok">${CHECK}</span>` : ''}<span class="xqn">${esc(qName(q))}</span>${lvLabel(q)}</button>` : '';
+      return `<section class="xsec ${done ? 'done' : ''}"><header><h4>${esc(secLabel(s.k))}</h4>${rq}</header><div class="xis">${items.map(it => xItemHTML(it, s.k === 'm', xSchool(g) + ' · ' + secLabel(s.k) + ' · ')).join('')}</div></section>`;
+    }).join('');
+    if (secs) out += `<h3 class="rhead">${esc(xSchool(g))}</h3>${secs}`;
+  });
+  return out;
+}
+function trophiesHTML(qn){
+  let out = qn ? '' : `<p class="fab">${esc(t('xTroIntro'))}</p>`;
+  X.trophies.forEach(g => {
+    const items = g.items.filter(it => !qn || norm(it.n + ' ' + it.r + ' ' + xTro(it)).includes(qn));
+    if (!items.length) return;
+    out += `<h3 class="rhead">${esc(t('xGrp_' + g.id))}</h3>${g.guide ? `<p class="fab"><a href="${esc(g.guide)}" target="_blank" rel="noopener">${esc(t('xTroGuide'))} ↗</a></p>` : ''}<div class="list">` + items.map(it => {
+      const req = xTro(it), hidden = it.sp && !ui.reveal.has(it.id) && !qn;
+      return `<div class="card xtro"><h4><span style="min-width:0">${hl(it.n)}</span>${it.miss ? `<span class="flag miss">${esc(t('missable'))}</span>` : ''}${it.u ? `<a class="rb xw" href="${esc(it.u)}" target="_blank" rel="noopener" aria-label="${esc(t('openWiki', {name:it.n}))}" title="${esc(t('wiki'))}">${BOOK}</a>` : ''}</h4>` +
+        (hidden ? `<button class="xsp" data-act="xspoil" data-id="${it.id}">${esc(t('xSpoiler'))}</button>` : `<p class="xr">${hl(req)}</p>`) + `</div>`;
+    }).join('') + `</div>`;
+  });
+  return out;
+}
+function challengesHTML(qn){
+  const items = X.challenges.map(c => [c, xCh(c)]).filter(([c, v]) => !qn || norm(c.n + ' ' + v.n + ' ' + v.d).includes(qn));
+  if (!items.length) return '';
+  return (qn ? '' : `<p class="fab">${esc(t('xChIntro', {who:(X.credits && X.credits.challenges) || ''}))}</p>`) + `<div class="list">` + items.map(([c, v]) =>
+    `<div class="card"><h4><span style="min-width:0">${hl(v.n)}${v.n !== c.n ? `<span class="qe">${hl(c.n)}</span>` : ''}</span></h4><p class="xr">${hl(v.d)}</p></div>`).join('') + `</div>`;
+}
+function extrasHTML(){
+  if (!X){ loadExtras(); return `<div class="boot">${esc(t('loading'))}</div>`; }
+  if (!ui.school) ui.school = defaultSchool();
+  const qn = ui.query && norm(ui.query).length >= 2 ? norm(ui.query) : '';
+  if (qn){
+    const parts = [['xGear', gearHTML(qn)], ['xTrophies', trophiesHTML(qn)], ['xChallenges', challengesHTML(qn)]].filter(p => p[1]);
+    return parts.length ? parts.map(p => `<h2 class="xh">${esc(t(p[0]))}</h2>${p[1]}`).join('') : `<div class="empty">${esc(t('noResults', {q:ui.query}))}</div>`;
+  }
+  const body = ui.xsec === 'trophies' ? trophiesHTML('') : ui.xsec === 'challenges' ? challengesHTML('') : gearHTML('');
+  return `<div class="xview">${body}</div>`;
+}
+function openImage(u, cap){
+  const html = `<div class="ximg"><img src="${esc(u)}" alt="${esc(cap)}" referrerpolicy="no-referrer" loading="eager"><p class="xfail" hidden>${esc(t('xImgFail'))}</p></div><p class="xsrc"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t('xOpenOriginal'))} ↗</a></p>`;
+  openSheet(cap, html, body => {
+    const img = body.querySelector('img');
+    const fail = () => { img.hidden = true; body.querySelector('.xfail').hidden = false; };
+    if (img.complete && !img.naturalWidth) fail(); else img.addEventListener('error', fail);
+  });
+}
 function renderFoot(){
   const guide = CONFIG.guideUrl && !CONFIG.guideUrl.includes('*') ? `<a href="${esc(CONFIG.guideUrl)}" target="_blank" rel="noopener">${esc(t('creditsGuide'))}</a>` : esc(t('creditsGuide'));
   const support = `<a href="${esc(CONFIG.supportUrl)}" target="_blank" rel="noopener">${esc(t('creditsSupport'))}</a>`;
@@ -880,7 +1008,11 @@ document.addEventListener('click', e => {
   else if (act === 'd'){ state.d.has(id) ? state.d.delete(id) : state.d.add(id); save(); renderMain(); }
   else if (act === 'g'){ state.g.has(id) ? state.g.delete(id) : state.g.add(id); save(); renderTop(); renderChips(); renderMain(); }
   else if (act === 'open'){ ui.open.has(id) ? ui.open.delete(id) : ui.open.add(id); renderMain(); }
-  else if (act === 'goto') goTo(id);
+  else if (act === 'goto'){ if (!$('sheet').hidden) closeSheet(); goTo(id); }
+  else if (act === 'xsec'){ ui.xsec = id; clearQuery(); renderChips(); renderMain(); scrollToList(); }
+  else if (act === 'xschool'){ ui.school = id; renderMain(); }
+  else if (act === 'xspoil'){ ui.reveal.add(id); renderMain(); }
+  else if (act === 'ximg') openImage(b.dataset.u, b.dataset.cap);
   else if (act === 'ch'){ ui.ch = id; clearQuery(); renderChips(); renderMain(); scrollToList(); }
   else if (act === 'fch'){ ui.fch = id; clearQuery(); renderChips(); renderMain(); scrollToList(); }
   else if (act === 'fac'){ ui.fac = +b.dataset.i; renderChips(); renderMain(); scrollToList(); }
@@ -938,12 +1070,13 @@ function goTo(id){
 }
 function setTab(tb){
   ui.tab = tb;
-  $('tabQ').setAttribute('aria-selected', tb === 'q'); $('tabF').setAttribute('aria-selected', tb === 'f'); $('tabG').setAttribute('aria-selected', tb === 'g');
+  $('tabQ').setAttribute('aria-selected', tb === 'q'); $('tabF').setAttribute('aria-selected', tb === 'f'); $('tabG').setAttribute('aria-selected', tb === 'g'); $('tabX').setAttribute('aria-selected', tb === 'x');
+  if (tb === 'x') loadExtras();
   if (tb === 'f' && !ui.fch){ const nx = nextQuest(); ui.fch = nx && FREE.some(f => f.ch === nx.ch) ? nx.ch.id : 'all'; }
-  $('q').placeholder = t(tb === 'g' ? 'searchGwent' : tb === 'f' ? 'searchFree' : 'searchQuests');
+  $('q').placeholder = t(tb === 'x' ? 'searchExtras' : tb === 'g' ? 'searchGwent' : tb === 'f' ? 'searchFree' : 'searchQuests');
   renderChips(); renderMain();
 }
-$('tabQ').onclick = () => setTab('q'); $('tabF').onclick = () => setTab('f'); $('tabG').onclick = () => setTab('g');
+$('tabQ').onclick = () => setTab('q'); $('tabF').onclick = () => setTab('f'); $('tabG').onclick = () => setTab('g'); $('tabX').onclick = () => setTab('x');
 $('hideDone').onclick = () => { ui.hide = !ui.hide; saveUi(); renderChips(); renderMain(); };
 $('fabNext').onclick = () => { const nx = nextQuest(); if (nx) goTo(nx.id); else window.scrollTo({top:0, behavior:'smooth'}); };
 $('setBtn').onclick = () => openSettings();
