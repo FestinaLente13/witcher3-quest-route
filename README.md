@@ -1,9 +1,11 @@
 # Witcher 3 Quest Route
 
-> **This tool is entirely based on [ChrisRi](https://buymeacoffee.com/ChrisRi)'s _Witcher 3 Optimal Quest Order Guide_, with extra details by xLetalis.**
+> **This tool is entirely based on [ChrisRi](https://buymeacoffee.com/ChrisRi)'s [_Witcher 3 Optimal Quest Order Guide_](https://docs.google.com/spreadsheets/d/12H5lZC6vLFj0JToLSD2ZE7EcMN6MrmltL9SM_G6EUNU/edit?usp=sharing), with extra details by xLetalis.**
 > The quest order, the suggested levels and every one of the 900+ tips are their work. This project is only a phone-friendly way to view that guide while you play, built with the help of AI.
 >
 > ### ☕ If it helps you, [buy ChrisRi a coffee](https://buymeacoffee.com/ChrisRi).
+>
+> The original Google Sheet has a lot more than this viewer shows: the full alchemy ingredient guide, scavenger hunt maps, the trophy list, challenge runs and Chris's changelog. **[Open the original guide](https://docs.google.com/spreadsheets/d/12H5lZC6vLFj0JToLSD2ZE7EcMN6MrmltL9SM_G6EUNU/edit?usp=sharing)**.
 
 A free, phone-friendly checklist for playing **The Witcher 3** (base game + Hearts of Stone + Blood and Wine) in the optimal quest order.
 
