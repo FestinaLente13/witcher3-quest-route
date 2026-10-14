@@ -412,8 +412,19 @@ const CONFIG = {
   // Curator's picks are a separate, read-only layer. Forks can point this at the
   // original repo's raw file to keep receiving updates without merging anything.
   curatedUrl: 'data/curated.json',
-  storageKey: 'w3route.v1'
+  storageKey: 'w3route.v1',
+  // Anonymous visit counter (GoatCounter: no cookies, no personal data).
+  // Only runs on the original site, so forks never report to it.
+  goatcounter: { code: 'w3route', host: 'festinalente13.github.io' }
 };
+(function(){
+  const g = CONFIG.goatcounter;
+  if (!g || !g.code || location.hostname !== g.host) return;
+  const s = document.createElement('script');
+  s.async = true; s.src = 'https://gc.zgo.at/count.js';
+  s.dataset.goatcounter = 'https://' + g.code + '.goatcounter.com/count';
+  document.head.appendChild(s);
+})();
 </script>
 <script>
 (function(){

@@ -17,7 +17,7 @@ A free, phone-friendly checklist for playing **The Witcher 3** (base game + Hear
 - **Curator's picks** (by *Festina Lente*): while playing along the route, the curator slots free quests next to nearby route quests of a similar level, with short notes. They update weekly, and you can turn them off in Settings.
 - All the guide's tips, with video and map links where the original had them
 - Gwent card checklist with where to find each copy
-- No account, no tracking. Progress stays in your browser, and you can export it to a file and import it on another device.
+- No account, no ads, no cookies. Progress stays in your browser, and you can export it to a file and import it on another device. The only thing sent anywhere is an anonymous visit count ([GoatCounter](https://www.goatcounter.com/), which stores no personal data), so the maintainer can see whether people use it. Forks don't send it.
 
 ## Your data vs. the curator's picks
 
