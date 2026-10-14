@@ -1,0 +1,15 @@
+{
+ "locales": [
+  {
+   "code": "en",
+   "name": "English",
+   "credit": ""
+  },
+  {
+   "code": "pt-BR",
+   "name": "Português (Brasil)",
+   "credit": "Festina Lente",
+   "complete": 100
+  }
+ ]
+}
